@@ -1,0 +1,54 @@
+/* 滚动条整体部分 */
+::-webkit-scrollbar {
+  width: 6px;   /* 纵向滚动条宽度 */
+  height: 6px;  /* 横向滚动条高度 */
+}
+
+/* 滚动条轨道 */
+::-webkit-scrollbar-track {
+  background: #333333;
+  border-radius: 4px;
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+/* 滑块悬浮效果 */
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+} 
+
+small{   font-size:50% !important; }
+small.hr{    vertical-align: middle; margin:0 2px;  }
+ 
+.number-text {
+  font-size: 40px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 1.2;
+}
+ 
+.ant-card{
+  display: flex;
+    flex-direction: column;
+
+}
+.ant-card-head-title{ padding:0px 16px; padding-top:8px;  -border-bottom: 1px solid #3c3c3c;}
+.ant-card-head-title .ant-typography{ margin-bottom: 0 !important;}
+.ant-card-body{  flex:1; overflow-y: auto;   } 
+
+.ant-table-thead > tr > th {
+    background-color: #293d57 !important; 
+    
+}
+
+ 
+.ant-table-cell{  line-height: 42px;   border-top: 1px solid #333333 !important;  }
+
+.ant-pagination{  margin-top:16px;     display:none !important;  }
+
+
+.message a{ display: inline-block; padding: 0px 6px; background-color: #1677ff; color:#fff; border-radius: 3px;}
